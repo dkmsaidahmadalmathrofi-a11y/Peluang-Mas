@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peluang Bisnis Emas Waralaba</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Peluang Bisnis Emas Waralaba</h1>
+    <p>Investasi cerdas, untung berlipat</p>
+  </header>
+
+  <section class="hero">
+    <h2>Gabung dalam peluang emas sekarang juga</h2>
+    <p>Dapatkan keuntungan berkelanjutan melalui waralaba emas terpercaya</p>
+    <a href="#contact" class="btn">Hubungi Kami</a>
+  </section>
+
+  <section class="articles">
+    <h2>Artikel Terbaru</h2>
+    <div class="article">
+      <h3>Kenapa Investasi Emas Menarik?</h3>
+      <p>Emas adalah aset yang stabil dan terus diminati...</p>
+      <button class="read-more" data-index="0">Baca Selengkapnya</button>
+    </div>
+    <div class="article">
+      <h3>Keuntungan Waralaba Emas</h3>
+      <p>Waralaba emas memberikan peluang tanpa ribet...</p>
+      <button class="read-more" data-index="1">Baca Selengkapnya</button>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 id="modal-title"></h3>
+        <span class="close">&times;</span>
+      </div>
+      <div id="modal-body"></div>
+      <div class="progress-indicator">
+        <span id="progress-text"></span>
+        <div class="progress-bar"><div id="progress-fill"></div></div>
+      </div>
+      <div class="modal-nav">
+        <button id="prev-article">← Sebelumnya</button>
+        <button id="next-article">Berikutnya →</button>
+      </div>
+    </div>
+  </div>
+
+  <section id="contact" class="contact">
+    <h2>Hubungi Kami</h2>
+    <p>Email: <a href="mailto:peluang3mas@gmail.com">peluang3mas@gmail.com</a></p>
+    <p>WhatsApp: <a href="https://wa.me/628118772525" target="_blank">0811-877-2525</a></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
